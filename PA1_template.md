@@ -7,7 +7,6 @@ Loading and preprocessing:
 
 
 ```r
-  setwd("C:\\Users\\DD\\Documents\\GitHub\\DataScience\\RepData_PeerAssessment1")
   unzip("repdata-data-activity.zip")
   ## This first line will likely take a few seconds. Be patient!
   activity <- read.csv("activity.csv")
